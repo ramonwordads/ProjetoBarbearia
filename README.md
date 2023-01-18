@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 
-- [Acesse o projeto finalizado, online](https://ramonwordads.github.io/BarbeariaNaRegua)
+- [Acesse o projeto finalizado, online](https://ramonwordads.github.io/ProjetoBarbearia)
 
 
 
