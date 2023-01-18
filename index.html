@@ -9,9 +9,20 @@
 </head>
 
 <body>
-    <header><span class="header-title"><h1>NaRégua</h1></span>
-        <img src="./assets/img//header/header.jpg" alt="Imagem de Corte de Cabelo">
+    <header>
+        <span class="header-title"><h1>NaRégua</h1></span>
+
+        <navbar>
+            <a href="#sobre-nos"><li>Sobre Nós</li></a>
+            <a href="#nosso-espaco"><li> Nosso Espaço</li></a>
+            <a href="#tabela"><li> Preço</li></a>
+            <a href="#nossa-localizacao"><li> Localização</li></a>
+            <a href="#contact"><li> Contato</li></a>
+        </navbar>
     </header>
+    <div id="header">
+        <img src="./assets/img/header/header.jpg" alt="Imagem de Corte de Cabelo">
+    </div>
     
     <main>
     
@@ -154,7 +165,7 @@
         </section>
 
         <section id="nossa-localizacao" class="container">
-            <div class="section-texts">
+            <div id="localiza" class="section-texts">
                 <h1>Nossa Localização</h1>
                 <p>Venha nos Visitar!</p>
                     <iframe 
@@ -166,20 +177,37 @@
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
 
-        <section id="contato" class="container">
-            <div class="section-texts">
+            <div id="contact" class="section-texts">
                 <h1>Contato</h1>
                 <p>Entre em Contato conosco através: </p>
+                
+                <a class="link-icon" href="#">
+                    <img class="icons" src="./assets/img/icons/instagram.png" alt="Imagem logo do instagram">
+                </a>
+
+                <a class="link-icon" href="#">
+                    <img class="icons" src="./assets/img/icons/facebook.png" alt="Imagem logo do Facebook">
+                </a>
+
+                <a class="link-icon" href="#">
+                    <img class="icons" src="./assets/img/icons/whatsapp.png" alt="Imagem logo do Whatsapp">
+                </a>
+
+                <a class="link-icon" href="#">
+                    <img class="icons" src="./assets/img/icons/twitter.png" alt="Imagem logo do Twitter">
+                </a>
+
             </div>
         </section>
+
     
     </main>
 
-
-        <!--MELHORAR DESIGNER DO FOOTER-->
+                <a id="topopagina" href="#"><h4> Voltar ao Topo da Pagina</h4></a>
+        
     <footer>
+       
         Desenvolvido por @nascramon&copy;
     </footer>
 </body>
